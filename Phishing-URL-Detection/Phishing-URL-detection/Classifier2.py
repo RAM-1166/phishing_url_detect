@@ -1,6 +1,6 @@
 import pandas as pd
-legitimate_urls = pd.read_csv(r"Phishing-URL-Detection-master (1)\Phishing-URL-Detection-master\extracted_csv_files\legitimate-urls.csv")
-phishing_urls = pd.read_csv(r"Phishing-URL-Detection-master (1)\Phishing-URL-Detection-master\extracted_csv_files\phishing-urls.csv")
+legitimate_urls = pd.read_csv(r"Phishing-URL-Detection\Phishing-URL-detection\extracted_csv_files\legitimate-urls.csv")
+phishing_urls = pd.read_csv(r"Phishing-URL-Detection\Phishing-URL-detection\extracted_csv_files\phishing-urls.csv")
 legitimate_urls.head(10)
 phishing_urls.head(10)
 urls = legitimate_urls.append(phishing_urls)
