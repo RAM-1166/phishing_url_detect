@@ -270,8 +270,8 @@ class FeatureExtraction:
 
 if __name__ == "__main__":
     # Test the feature extraction methods using URLs from text files
-    phishing_urls_file = {r"Phishing-URL-Detection-master (1)\Phishing-URL-Detection-master\raw_datasets\1000-phishing.txt"}
-    legitimate_urls_file = {r"Phishing-URL-Detection-master (1)\Phishing-URL-Detection-master\raw_datasets\legitimate_urls.txt"}
+    phishing_urls_file = {r"Phishing-URL-Detection\Phishing-URL-detection\raw_datasets\1000-phishing.txt"}
+    legitimate_urls_file = {r"Phishing-URL-Detection\Phishing-URL-detection\raw_datasets\legitimate_urls.txt"}
 
     # Initialize FeatureExtraction object
     feature_extractor = FeatureExtraction()
